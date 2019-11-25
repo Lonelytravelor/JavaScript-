@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>input3</title>
+</head>
+<body>
+<form>
+    <!--用input获取电子邮箱，电话，网址，最优解为邮箱-->
+    <input type="email">
+    <input type="tel">
+    <input type="url">
+    <br>
+    <!--使用input来获取时间 年-月-日-->
+    <input type="date">
+    <br>
+    <!--使用input来获取颜色-->
+    <input type="color">
+    <br>
+    <!--获取搜索用词--><!--没啥感觉一般搜索框用此-->
+    <input type="search">
+    <br>
+    <!--hidden控件隐藏信息-->
+    <input type="hidden" value="xxx" name="xxx">
+    <br>
+    <!--利用input上传图片-->
+    <input TYPE="image" src="timg.jpg" width="100px">
+    <br>
+    <!--利用input上传文件--><!--multiple一次上传多个文件required单个上传-->
+    <input type="file" multiple>
+    <input type="file" required>
+</form>
+</body>
+</html>
