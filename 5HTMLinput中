@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>input2</title>
+</head>
+<body>
+<form>
+    <!--//按钮插件-->
+    <input type="button" value="确定"><!-- 最为基础的按钮元素之一，类型为button，文字为value-->
+    <br>
+    <button>确认</button><!--基础按钮之二-->
+    <br>
+    <input type="submit" value="提交">
+    <br><br>
+    <!--//range插件-->
+    <input type="range"><!--最简单的滑动条-->
+    <br>
+    <input type="range" min="0" max="100"><!--规定上下限-->
+    <br>
+    <input type="range"  min="0" max="100" step="10"><!--规定步长-->
+    <br>
+    <input type="range"  min="0" max="100" step="10" value="20"><!--value为起始值-->
+    <br><br>
+    <!--//unmber插件-->
+    <input type="number"min="0" max="100" step="10" value="20"><!--数字型的range-->
+    <br><br>
+    <!--//check插件-->
+    <input type="checkbox">我同意<!--这是一个多选框，可改变-->
+    <br>
+    <!--//radio插件-->
+    <input type="radio">
+    选择1/2/3<!--这是一个单选框，不可改变,联动需要用name-->
+    <br><br>
+    世界上谁最可爱？
+    <br>
+    <input type="radio" name="ting">小婷婷
+    <input type="radio" name="ting">小小婷
+    <input type="radio" name="ting">郭馨婷
+    <br><br>
+    <!--select插件--><!--下拉选择框-->
+    世界上最可爱的人喜欢吃什么食物？
+    <br>
+    <select>
+        <option>炸鸡</option>
+        <option>烧烤</option>
+        <option>火锅</option>
+    </select>
+    <br><br>
+    <!--datalist插件--><!--可以自己添加的下拉选项框，需要搭配input text来使用-->
+    世界上最可爱的人喜欢吃什么食物？
+    <br>
+    <input type="text" list="food">
+    <datalist id="food">
+        <option>炸鸡</option>
+        <option>烧烤</option>
+        <option>火锅</option>
+    </datalist>
+</form>
+</body>
+</html>
