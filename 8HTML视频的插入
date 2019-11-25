@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--最简单的video-->
+<video src="约会宣言（人声本家）%20-%201.人声本家fixed02(Av43541025,P1).mp4" height="500"></video>
+<!--autoplay元素网页打开后自动播放视频-->
+<video src="约会宣言（人声本家）%20-%201.人声本家fixed02(Av43541025,P1).mp4" height="500" autoplay></video>
+<!--带有控件的视频播放器-->
+<video src="约会宣言（人声本家）%20-%201.人声本家fixed02(Av43541025,P1).mp4" height="500" controls></video>
+<!--preload元素是预先加载视频，NONE，Metadata，Auto，默认是auto下载全部缓存-->
+<video src="约会宣言（人声本家）%20-%201.人声本家fixed02(Av43541025,P1).mp4" height="500" controls preload="metadata"></video>
+<!--Poster可以自定义第一帧的图片-->
+<video src="约会宣言（人声本家）%20-%201.人声本家fixed02(Av43541025,P1).mp4" height="500" preload="metadata" poster="timg.jpg" controls></video>
+<!--使用多于两个视频源来兼容所有的浏览器-->
+<video src="约会宣言（人声本家）%20-%201.人声本家fixed02(Av43541025,P1).mp4" height="500" preload="metadata" poster="timg.jpg" controls>
+    <source src="约会宣言（人声本家）%20-%201.人声本家fixed02(Av43541025,P1).mp4" type="video/ogg">
+    <source src="约会宣言（人声本家）%20-%201.人声本家fixed02(Av43541025,P1).mp4" type="video/mp4">
+</video>
+</body>
+</html>
