@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Line</title>
+</head>
+<body>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <ol type="A">
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+        </ol>
+        <li>3</li>
+        <ol type="a" reversed>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ol>
+
+    </ol>
+</body>
+</html>
