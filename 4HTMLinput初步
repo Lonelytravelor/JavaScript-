@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>input</title>
+</head>
+<body>
+    <form>
+        <input><!--单独的一个文本框-->
+        <br>
+        <input type="text"><!--这是input的默认属性，也是一个默认的文本框-->
+        <br>
+        <input type="text" value="阔落加冰"> <!--在默认的文本框中加上占位符，可以更改，再次写入的时候会在后面拼接字符串-->
+        <br>
+        <input type="text" placeholder=" 输入账号 "><!--灰色占位符，只做提示用-->
+        <br>
+        <input type="text" maxlength="18" ><!--输入的字符的最大限制-->
+        <br>
+        <input type="text" size="50"> <!--加长文本框-->
+        <br>
+        <input type="text" value=" 输入账号 " readonly><!--只读-->
+        <br><br>
+        <input type="password" placeholder=" 输入账号 "><!--密码形式-->
+        <br><br>
+        <textarea rows="5">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</textarea><!--多行文本框-->
+
+    </form>
+</body>
+</html>
