@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zw">
+<head>
+    <meta charset="UTF-8">
+    <title>表单信息</title>
+</head>
+<body>
+<table border="1px"align="center">
+    <thead>
+    <tr>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>班级</th>
+        <th>QQ</th>
+        <th>备注</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>王守亮</td>
+        <td>男</td>
+        <td>计类18-8</td>
+        <td>1746384966</td>
+        <td>管理员权限</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
