@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>img</title>
+</head>
+<body>
+<!--创建分区相应图-->
+<!--利用alt元素实现在图片加载失败时候的提示-->
+<form>
+    <input type="image" src="timg.jpg" width="128">
+</form>
+<br><br>
+<!--实现点击图片运行超链接-->
+<a href="https://www.alipay.com/"><img src="timg.jpg" width="128" alt="支付宝"></a> <!--网页超链接-->
+<br><br>
+<!--创建分区响应图-->
+<!--建立分区相应图首先应该使用img控件来引用一张图片，再将配置的map导入这张照片-->
+<img src="timg.jpg" usemap="#alipay" width="128px">
+    <!--area有两类属性，一为导航网址href/alt，二是限定范围shape/coords-->
+<map name="alipay">
+    <!--circle(圆形)三个参数，左边缘距离圆心的距离，右边缘距离圆心的距离，半径
+    rect(矩形)四个参数，左边缘上边缘，右边缘，下边缘-->
+    <area href="https://www.alipay.com/" alt="支付宝" shape="circle" coords="64,64,64" target="_blank"><!--target属性是用来新开一个网页-->
+</map>
+</body>
+</html>
