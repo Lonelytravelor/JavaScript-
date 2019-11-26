@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css使用变换</title>
+    <!--变换的和直接改变大小的区别是一个直接改变是从锚点（左上变化），而变换是从中心也可以自定义其变化-->
+    <style type="text/css">
+        p{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+        }
+
+        p:hover{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            transform: rotate(45deg); /*这是将目标旋转一定的角度（按照顺时针转动）*/
+            transform-origin: top right; /*这是定位锚点，整个目标围绕这个点来旋转，默认情况下是中点*/
+            transform: scale(5); /*这个属性是唯一的，只会执行最后一次的操作*//*同时也可以只在x，y轴等方向上进行变化*/
+        }
+    </style>
+</head>
+<body>
+<p></p>
+</body>
+</html>
