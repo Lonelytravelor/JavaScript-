@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css过渡</title>
+    <style type="text/css">
+        p{
+            width: 100px;
+            height: 100px;
+            background-color: bisque;
+        }
+        p:hover{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+
+            transition-delay: 0.2s; /*动画延迟，条件完成后有一定时间的延迟在进行动作*/
+            transition-duration: 400ms; /*动作的过度时间 可以在前面以-o-来适配不同的浏览器*/
+            transition-property:  background-color,height; /*只有这个被赋予过渡性质的属性才有这些过度的动画，其他的被剥夺,可以同时赋予多个元素*/
+            transition-timing-function: ease; /*慢~快~慢*/
+            transition-timing-function: ease-in; /*快~慢*/
+            transition-timing-function: ease-out; /*慢~快*/
+            transition-timing-function: ease-in-out; /*慢~快~慢*/
+        }
+    </style>
+</head>
+<body>
+<p class="class1">Hello World</p>
+</body>
+</html>
