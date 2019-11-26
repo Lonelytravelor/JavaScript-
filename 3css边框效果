@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zw">
+<head>
+    <meta charset="UTF-8">
+    <title>创建边框和背景</title>
+    <style type="text/css">
+        .class1{
+            /*在这个标签内中设置边框样式*/
+            border-bottom-width: 5px;
+            border-color: aquamarine;
+            border-style: dotted;
+            border-top-color: bisque; /*单独设置某一边的颜色*/
+            border-bottom-style: solid;/*单独定义一侧的样式*/
+
+            /*border简写形式*/
+            border:5px solid red;
+
+            /*定义简单背景*/
+            width: 650px;
+            height: 650px;
+            /*background-color: blueviolet;*/
+            background-image: url("timg.jpg");
+        }
+    </style>
+</head>
+<body>
+<p class="class1">beautiful little ting</p>
+</body>
+</html>
