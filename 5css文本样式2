@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设置文本样式2</title>
+    <style type="text/css">
+        .class1{
+            font-family: 北岸钢笔楷书书法字体; /*设置字体样式*/
+            font-size: 40px; /*设置字体大小*/
+            font-style: normal; /*设置字体样式 normal为默认字体 oblique 使字体倾斜  italic  斜体字*/
+            font-variant: small-caps; /*以小型的大写字母来展示英文字体，区别于最大字母*/
+            font-weight: 900; /*设置文本粗细，加粗，数值越大越粗，bold bolder也是加粗*/
+            text-shadow: 10px 10px 2px red; /*设置字体阴影 第一个数值是水平偏移距离，垂直偏移距离，模糊程度，阴影颜色，*/
+
+        }
+    </style>
+</head>
+<body>
+<p class="class1"> Hello World !</p>
+<p> Hello World !</p>
+</body>
+</html>
