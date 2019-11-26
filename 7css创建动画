@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css创建动画</title>
+    <!--动画和变换的区别在于是否能保持在最后的状态-->
+    <style type="text/css">
+        /*对于标签的初始化*/
+        p{
+            width: 100px;
+            height: 100px;
+            background-color: bisque;
+        }
+        /*这是将要执行的动画部分*/
+        p:hover{
+            animation-delay: 100ms; /*延迟一段时间后开始动画效果*/
+            animation-duration: 1000ms; /*整个动画的过度时间*/
+            animation-name: ashe; /*载入动画的名字*/
+            animation-iteration-count: infinite; /*重复的次数*/
+            animation-direction: alternate;
+        }
+        @keyframes ashe {
+            /*动画从from开始*/
+            from{
+                width: 150px;
+                height: 150px;
+                background-color: #7cff3c;
+            }
+            /*也可以在中间添加自定义过渡*/
+            50% {
+                width: 125px;
+                height: 125px;
+                background-color: #7cff3c;
+            }
+            /*这是你将要到达的最后效果*/
+            to{
+                width: 200px;
+                height: 200px;
+                background-color: #f2ff41;
+            }
+        }
+    </style>
+</head>
+<body>
+<p>Hello World!</p>
+</body>
+</html>
