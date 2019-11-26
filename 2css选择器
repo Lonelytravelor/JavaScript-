@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--选择所有元素-->
+    <!--根据类型选择元素（标签）-->
+    <!--根据类选择元素（常用）-->
+    <!--根据ID选择元素-->
+    <!--根据属性选择元素-->
+    <!--：动作-->
+    <meta charset="UTF-8">
+    <title>css选择器</title>
+    <style type="text/css">
+        /*类型选择器，.用来引用类选择器，类可以被多个标签所引用*/
+        /*id选择器都属于全局标签 ，#用于引用id，id是唯一的（不推荐使用id）*/
+        /*属性选择器，带有某个属性的标签会被引用数这种选择器，使用[]加上索要引用的属性，并且也可以填入固定的属性值进去*/
+        /*
+        类属性定义样式表
+        .class1{
+            font-size: 40px;
+            color: antiquewhite;
+        }*/
+
+        /*#id{
+            font-size: 40px;
+            color: antiquewhite;
+        }*/
+
+        标签选择器
+        a{
+            font-size: 40px;
+            color: antiquewhite;
+        }
+
+        /*
+        *来表示全部选择器
+        *{
+            font-size: 40px;
+            color: antiquewhite;
+        }*/
+
+        /*:选择器，用来定义动作的样式选择器，拥有很多的动作模板，用来捕捉动作所产生的样式变化*/
+        a:hover{
+            font-size: 40px;
+            color: #ff0a00;
+        }
+
+    </style>
+</head>
+<body>
+ <a class="class1" href="https://www.bilibili.com/">www.bilibili.com</a>
+</body>
+</html>
