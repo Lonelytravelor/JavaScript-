@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> css初步 </title>
+    <!--外部导入样式《外部样式表》，利用link标签-->
+    <link rel="stylesheet" type="text/css" href="a.css">
+    <style type="text/css">
+        /*在全局样式中定义一个选择器来将全剧中所有的被选择的标签具有相同的样式*/
+        /*选择一个标签自定义其中的样式*/
+        /*利用标签名加上大括号的形式，并在大括号中定义其中的样式*/
+        a {
+            font-size: 40px;
+            color: #4dff2f;
+        }
+    </style>
+</head>
+<body>
+<!--展示全局样式在head中对局部的影响《文档内嵌样式表》-->
+<a href="https://www.bilibili.com/video/av5862916">HTML5+CSS+JS全方面解析</a>
+<!--局部样式，优先级最高 其样式在style中用分号相隔《元素内嵌样式表》-->
+<a style="font-size: 40px;color: #6cd4ff;" href="https://www.bilibili.com/video/av5862916">HTML5+CSS+JS全方面解析</a>
+</body>
+</html>
